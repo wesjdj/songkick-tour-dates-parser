@@ -1,10 +1,10 @@
 ﻿$currentPage = 1
 $pageCount = 11
 $concerts = @()
-$artist = "Avicii"
+$artist = "" #Insert Artist Name
 
 While ($currentPage -le $pageCount) {
-    $webPage = Get-Content "E:\Archive_Backup\Avicii\Tour Dates\Avicii Gigography, Tour History & Past Concerts – Songkick$($currentPage).htm"
+    $webPage = Get-Content "" #Insert htm file location
     $lineCount = 0
     While ($lineCount -lt $webPage.Count) {
         
